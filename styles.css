@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5eaf5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #8458b3;
+    color: white;
+}
+
+/* Navigation Bar */
+.section-bar {
+    background-color: #a28089;
+    text-align: center;
+    padding: 10px;
+}
+
+.section-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section-bar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.section-bar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Home Page */
+#home {
+    text-align: center;
+    padding: 30px;
+}
+
+.service-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-block {
+    background-color: #d0bdf4;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.service-block:hover {
+    transform: scale(1.05);
+}
+
+.taxpayer-block {
+    background-color: #8458b3;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.taxpayer-block:hover {
+    transform: scale(1.05);
+}
+
+/* Services Page */
+.service-section {
+    margin: 20px;
+    background-color: #a0d2eb;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #8458b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a28089;
+}
